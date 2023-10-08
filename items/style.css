@@ -1,0 +1,140 @@
+*{ 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    text-decoration: none; 
+   } 
+    
+   :focus,:active{outline: none;} 
+   a:focus,a:active{outline: none;} 
+    
+   nav,footer,header,aside{display: block;} 
+    
+   
+    
+   input,button,textarea{font-family:inherit;} 
+    
+   input::-ms-clear{display: none;} 
+   button{cursor: pointer;} 
+   button::-moz-focus-inner {padding:0;border:0;} 
+   a, a:visited{text-decoration: none;} 
+   a:hover{text-decoration: none;} 
+   ul li{list-style: none;} 
+   img{vertical-align: top;} 
+    
+   h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;} 
+    
+   html{ 
+    scroll-behavior: smooth; 
+   }
+   p{
+    margin: 0;
+    padding: 0;
+   }
+   button{
+    transition: 0.3s;
+   }
+   button:hover{
+    filter: contrast(200%);
+    transform: scale(0.98);
+   }
+
+
+
+.header {
+      max-width: 1200px;
+      height: 75px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0px auto;
+      font-family: 'Work Sans', sans-serif;
+      padding: 0px 40px;
+  }
+  
+  .logo{
+      font-family: 'Work Sans', sans-serif;
+      font-size: 25px;
+  
+  }
+  
+  .header__left{
+      display: flex;
+  
+  
+  }
+  
+  .header__right{
+      display: flex;
+      
+  }
+  
+  .header__logo {
+  }
+  .header__nav {
+      font-size: 25px;
+      display: flex;
+      gap: 30px;
+  }
+  .header__element {
+      color: #000;
+  }
+  .form-select {
+    --bs-form-select-bg-img: none!important;
+      width: 50px;
+      border: 0;
+      text-align: center;
+      padding: 0;
+  }
+
+  .main {
+}
+.item__info-block {
+    padding: 50px 0px;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+.item__img-box {
+}
+.item__img {
+    border-radius: 20px;
+    width: 450px;
+}
+.item__info-box {
+}
+.item-title {
+    margin-top: 75px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.item-info {
+    max-width: 500px;
+    margin-top: 5px;
+}
+
+.item-overtext{
+    margin: 15px 0px;
+}
+
+.item-price{
+    margin-top: 50px;
+    color: #000;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 15px;
+}
+
+.btn{
+    margin-top: 35px;
+    width: 500px;
+    height: 50px;
+    border-radius: 20px;
+}
