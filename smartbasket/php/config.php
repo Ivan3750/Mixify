@@ -1,7 +1,7 @@
 <?php
-/*     require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/phpmailer.php');
- */
-		 *** SMTP *** 
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/phpmailer.php');
+
+		/*  *** SMTP *** 
 
 		 require_once($_SERVER['DOCUMENT_ROOT'] . '/smartbasket/php/phpmailer/smtp.php');
 		 const HOST = 'smtp.gmail.com'; // Адреса SMTP сервера для Gmail
@@ -9,10 +9,10 @@
 		 const PASS = '0635705377Kv'; // Ваш пароль
 		 const PORT = 587; // Порт для Gmail
 
-		*** /SMTP *** 
-/* 		
+		*** /SMTP ***  */
+		
     const SENDER = 'sender@yandex.ru';
     const CATCHER = 'catcher@ya.ru';
     const SUBJECT = 'Заявка с сайта';
     const CHARSET = 'UTF-8';
-     */
+    

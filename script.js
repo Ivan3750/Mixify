@@ -101,6 +101,6 @@ function sendToTelegram() {
     });
 }
  */
-
+/* 
 a = document.getElementsByClassName("smart-basket__form")
-console.log(a)
+console.log(a) */
